@@ -1,0 +1,83 @@
+<!-- {% load static%} -->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To Employee Management System Portal
+    </title>
+    <link rel="stylesheet" href=" {% static 'css/1_home.css' %}">
+    <nav>
+        <ul>
+
+            <li><a href="1_home.html">Home</a></li>
+            <li><a href="2_login.html">Log In</a></li>
+            <li><a href="9_contacts.html">Contact Us</a></li>
+
+        
+        </ul>
+
+    </nav>
+    <style>
+        body {
+            background-image: url(images/350830-best-website-background-1920x1080.jpg);
+        }
+    </style>
+</head>
+<body>
+<div align="center">
+    <marquee>WELCOME TO EMPLOYEE MANAGEMENT SYSTEM PORTAL | CREATE AN EMPLOYEE ACCOUNT AND START WORKING FROM HOME
+</marquee>
+
+
+    <h1>Welcome To Employee Management Portal</h1>
+    <h2>Create an account of an employee by filling in the blanks in the following</h2>
+    <br>
+    <br>
+    <br>
+    
+<!--    <img src="images/contact_us.jpg">-->
+    <form name="member_registration" method="post">
+        <p>
+            <strong>Full name</strong><br>
+            <input type="text" name="full_name" />
+        </p>
+        <p>
+            <strong>Email</strong><br>
+            <input type="text" name="email" />
+        </p>
+        <p>
+            <strong>Password</strong><br>
+            <input type="password" name="password" />
+        </p>
+        <p>
+            <strong>Password Again</strong><br>
+            <input type="password" name="conf_password" />
+        </p>
+        <br>
+       
+
+        <p>
+            <input type="submit" name="submit" value="Create_Account" />
+        </p>
+        <br>
+    <footer>
+        <p>
+            Our website will securely give you access to our Employee Management Portal. Your database will remain confidential at all times. Thank you for using our service. 
+
+        </p>
+                <!-- <a href="1_home.html">Home &nbsp&nbsp&nbsp</a>
+                <a href="2_login.html">Log In&nbsp&nbsp&nbsp&nbsp</a>
+                <a href="5_facilities.html">&nbsp&nbsp Facilities</a>
+                <a href="6_owner.html">&nbsp&nbsp&nbsp Database</a>
+                <a href="8_memberlist.html">&nbsp&nbsp&nbsp Members List</a>
+                <a href="9_contacts.html">&nbsp&nbsp&nbsp Contact Us</a> -->
+        <br>
+        <br>
+        <br>
+    </footer>
+        </div>
+    </body>
+</html>
+
+

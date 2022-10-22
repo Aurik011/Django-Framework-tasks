@@ -1,0 +1,38 @@
+body{
+    background-color: mintcream;
+    font-family: arial;
+    margin: auto
+    
+/*    alternative font use arial or cursive or sans-sheriff*/
+    
+}
+
+
+nav{
+    position: absolute;
+    background-color: #cc724b;
+    width: 100%;
+}
+
+nav ul{
+    width: 80%;
+    margin:0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:2%;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+

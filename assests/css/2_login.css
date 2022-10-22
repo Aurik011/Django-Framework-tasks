@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+    font-family: arial;
+    margin: auto;
+    
+    
+    
+}
+
+
+nav{
+    position: absolute;
+    background-color: #483D8B;
+    width: 100%;
+}
+
+nav ul{
+    width: 80%;
+    margin:0 auto;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:2%;
+    
+}
+
+nav ul li a{
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
